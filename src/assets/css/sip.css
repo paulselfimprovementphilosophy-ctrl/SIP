@@ -5,23 +5,23 @@
    ========================================================================== */
 
 :root {
-  --ink: #0e1512;
-  --ink-2: #141e1a;
-  --ink-3: #1d2a25;
-  --paper: #f5f0e7;
-  --paper-2: #ece5d6;
-  --paper-3: #e1d8c4;
-  --text: #17201c;
-  --muted: #5a645e;
-  --brass: #a9854b;
-  --brass-hi: #d4b57b;
-  --brass-lo: #7a5e2f;
+  --ink: #0d111c;
+  --ink-2: #161b2b;
+  --ink-3: #222842;
+  --paper: #f5f7fd;
+  --paper-2: #ebeefa;
+  --paper-3: #dde2f4;
+  --text: #0d111c;
+  --muted: #6b6e71;
+  --brass: #5b3fd6;
+  --brass-hi: #b9abf7;
+  --brass-lo: #4a30c0;
   --sage: #6f8b7b;
   --clay: #a6563b;
-  --hair: rgba(23, 32, 28, .14);
-  --hair-dark: rgba(245, 240, 231, .16);
-  --serif: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
-  --sans: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --hair: rgba(13, 17, 28, .12);
+  --hair-dark: rgba(245, 247, 253, .16);
+  --serif: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif; /* stand-in for Ivy Presto Display */
+  --sans: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --ease: cubic-bezier(.2, .7, .15, 1);
   --gutter: clamp(20px, 5vw, 72px);
   --max: 1240px;
@@ -470,3 +470,70 @@ table.t td:first-child { font-family: var(--serif); font-size: 1.3rem; line-heig
 /* screenshot/QA helper: ?static disables reveal hiding */
 html.static .reveal, html.static .reveal-line { opacity: 1 !important; transform: none !important; clip-path: none !important; }
 html.static .rise { animation: none !important; }
+
+
+/* ==========================================================================
+   Theme match: self-improvementphilosophylife.org (light lavender, light serif,
+   Open Sans body, navy ink). Overrides the earlier dark/brass look.
+   ========================================================================== */
+body::before { display: none; }
+h1, h2, h3, h4 { font-weight: 300; letter-spacing: -.01em; }
+h1 em, h2 em, h3 em, .serif em, .hero em, .band-dark em, .on-dark h1 em { font-style: normal; font-weight: 600; color: inherit; }
+.band-dark em { color: #fff; }
+.statement { font-weight: 300; }
+
+/* header: always light, logo + serif nav */
+.site-header { color: var(--ink); background: rgba(245, 247, 253, .72); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); --header-h: 96px; }
+.site-header.is-scrolled { --header-h: 76px; height: 76px; background: rgba(245, 247, 253, .94); }
+.brand img.logo { height: 80px; width: auto; display: block; }
+.site-header.is-scrolled .brand img.logo { height: 58px; }
+.nav a { font-family: var(--serif); font-size: 1.1rem; font-weight: 400; letter-spacing: 0; text-transform: none; }
+.nav a.btn { font-family: var(--sans); font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+.btn { background: var(--ink); color: #fff; border-color: var(--ink); }
+.btn:hover { background: var(--brass-lo); border-color: var(--brass-lo); color: #fff; }
+.btn.dark { background: var(--ink); color: #fff; border-color: var(--ink); }
+.btn.dark:hover { background: var(--brass-lo); border-color: var(--brass-lo); color: #fff; }
+.btn.ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn.ghost:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+.band-dark .btn { background: #fff; color: var(--ink); border-color: #fff; }
+.band-dark .btn:hover { background: var(--brass-hi); border-color: var(--brass-hi); color: var(--ink); }
+.band-dark .btn.ghost { background: transparent; color: #fff; border-color: #fff; }
+.band-dark .btn.ghost:hover { background: #fff; color: var(--ink); }
+.site-header.is-scrolled .btn, .site-header .btn { background: var(--ink); color: #fff; border-color: var(--ink); }
+.site-header.is-scrolled .btn:hover, .site-header .btn:hover { background: var(--brass-lo); border-color: var(--brass-lo); color: #fff; }
+
+/* hero: pale lavender wash, dark type */
+.hero { background: var(--paper); color: var(--ink); }
+.hero::before { background: radial-gradient(closest-side, rgba(150, 120, 255, .24), rgba(150, 120, 255, 0) 70%); right: auto; left: -10%; top: -25%; }
+.hero::after { background-image: radial-gradient(closest-side at 18% 88%, rgba(150, 120, 255, .18), transparent 70%); background-size: 100% 100%; background-position: 0 0; -webkit-mask-image: none; mask-image: none; }
+.hero .lead { color: var(--muted); }
+.hero .eyebrow { color: var(--brass-lo); }
+.rings .ring { stroke: var(--brass); }
+.hero-meta { border-top: 1px solid var(--hair); }
+.hero-meta div { color: var(--muted); }
+.hero-meta b { color: var(--ink); font-weight: 300; }
+.hero-portrait { position: absolute; right: clamp(0px, 6vw, 110px); bottom: 0; height: min(86%, 640px); width: auto; z-index: 1; pointer-events: none; }
+.hero .wrap { padding-right: clamp(0px, 34vw, 520px); }
+.hero.short .wrap { padding-right: var(--gutter); }
+
+/* dark bands: deep navy */
+.band-dark { background: var(--ink); color: #fff; }
+.stat .big { color: var(--brass-hi); font-weight: 300; }
+
+/* footer: white like the live site, logo on light */
+.site-footer { background: #fff; color: var(--muted); border-top: 1px solid var(--hair); }
+.site-footer h5 { color: var(--ink); }
+.site-footer a:hover { color: var(--brass-lo); }
+.site-footer .brand { color: var(--ink); }
+.site-footer .brand img.logo { height: 76px; }
+.site-footer .top { border-bottom: 1px solid var(--hair); }
+.site-footer .fine { color: var(--muted); }
+
+/* photos on cards and about */
+.pcard img.shot { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; margin-bottom: 26px; }
+.pcard img.shot + h3 { margin-top: 0; }
+.portrait { width: 100%; max-width: 340px; height: auto; margin-top: 28px; }
+@media (max-width: 900px) {
+  .hero-portrait { display: none; }
+  .hero .wrap { padding-right: var(--gutter); }
+}
