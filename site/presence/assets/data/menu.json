@@ -1,0 +1,1533 @@
+{
+  "edition": "Complete 24-Drink Collection · Flipbook Repaired",
+  "version": "6.5",
+  "updated": "2026-07-11",
+  "notice": "Creative and operational development edition. Prices, final availability, allergens, and dietary indicators require SIP approval before service.",
+  "collections": [
+    {
+      "id": "house-signatures",
+      "name": "House Signatures",
+      "description": "Four permanent compositions that carry the clearest expression of SIP: memorable without excess, generous without noise, and unmistakable from the first sip.",
+      "promise": "The permanent icons",
+      "drinks": [
+        {
+          "id": "presence",
+          "name": "Presence",
+          "number": "01",
+          "tagline": "Depth without darkness.",
+          "menuLine": "Blackberry · Assam Black Tea · Charred Orange · Allspice",
+          "description": "Blackberry and black tea unfold through charred orange and warm allspice, then resolve into a dry mineral finish. Rich at first, composed from beginning to end.",
+          "closingLine": "Stay for the moment. Remember the night.",
+          "publicIngredients": [
+            "Blackberry–allspice cordial",
+            "Chilled Assam black tea",
+            "Fresh lemon",
+            "Charred-orange oleo syrup",
+            "Alcohol-free aromatic bitters",
+            "Sparkling mineral water",
+            "Smoked sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1½ oz",
+              "ingredient": "blackberry–allspice cordial"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "chilled strong Assam black tea"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "charred-orange oleo syrup"
+            },
+            {
+              "amount": "2 dashes",
+              "ingredient": "alcohol-free aromatic bitters"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "smoked sea-salt solution"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "sparkling mineral water"
+            }
+          ],
+          "method": "Shake everything except the mineral water briefly with ice. Fine-strain over one large clear cube, add mineral water, and stir once.",
+          "glassware": "Heavy crystal rocks glass",
+          "ice": "One large hand-cut clear cube",
+          "garnish": "Thin charred-orange crescent and one ripe blackberry on a minimal gold pick",
+          "experience": "Dark fruit · structured tea · warm spice · dry mineral finish",
+          "pairing": "Charred jerk mushrooms · roasted plantain · tamarind glaze",
+          "profile": {
+            "sweetness": 2.5,
+            "citrus": 3,
+            "herbal": 2,
+            "body": 4,
+            "effervescence": 2
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/01-presence.webp",
+          "imageAlt": "Presence zero-proof cocktail with blackberry, charred orange, clear ice, and a gold pick in a cut-crystal rocks glass.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "clarity",
+          "name": "Clarity",
+          "number": "02",
+          "tagline": "Light, not slight.",
+          "menuLine": "Green Grape · Cucumber · Silver Needle White Tea · Citrus Blossom",
+          "description": "Clarified green grape and cool cucumber meet white tea and citrus blossom in a pale, crystalline composition. Luminous at the opening, quietly floral through the middle, and mineral-dry at the finish.",
+          "closingLine": "See the moment clearly.",
+          "publicIngredients": [
+            "Clarified green-grape cordial",
+            "Fresh cucumber",
+            "Chilled Silver Needle white tea",
+            "Fresh lime",
+            "Citrus-blossom syrup",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1½ oz",
+              "ingredient": "clarified green-grape cordial"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "chilled Silver Needle white tea"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "citrus-blossom syrup"
+            },
+            {
+              "amount": "2 oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Build over one long clear ice spear in a chilled highball. Add mineral water last and lift gently with a bar spoon.",
+          "glassware": "Slender crystal highball",
+          "ice": "One long hand-cut clear spear",
+          "garnish": "Translucent cucumber ribbon and one tiny white edible blossom",
+          "experience": "Cool cucumber · soft florals · luminous fruit · mineral-dry finish",
+          "pairing": "Callaloo croquettes · green mango · cashew-lime crema",
+          "profile": {
+            "sweetness": 2,
+            "citrus": 2.5,
+            "herbal": 3,
+            "body": 2,
+            "effervescence": 3.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/02-clarity.webp",
+          "imageAlt": "Clarity zero-proof cocktail with cucumber ribbon, clear ice spear, and white blossom in a tall crystal highball.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "legacy",
+          "name": "Legacy",
+          "number": "03",
+          "tagline": "Heritage, carried forward.",
+          "menuLine": "Jamaican Sorrel · Roasted Ginger · Pimento · Blood Orange · Bay Leaf",
+          "description": "Jamaican sorrel opens with deep ruby fruit, while roasted ginger, pimento, and bay leaf build warmth beneath a polished blood-orange finish. Familiar in memory, elevated in form.",
+          "closingLine": "Honor what shaped you. Carry it forward.",
+          "publicIngredients": [
+            "Jamaican sorrel reduction",
+            "Roasted-ginger cordial",
+            "Pimento and bay-leaf infusion",
+            "Fresh lime",
+            "Blood-orange oleo syrup",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1¼ oz",
+              "ingredient": "Jamaican sorrel reduction"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "roasted-ginger cordial"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "pimento and bay-leaf infusion"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "blood-orange oleo syrup"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Shake everything except mineral water with ice. Fine-strain into a stemmed goblet over one clear sphere and finish with mineral water.",
+          "glassware": "Stemmed crystal goblet",
+          "ice": "One carved clear sphere",
+          "garnish": "Sorrel bloom and a thin flamed blood-orange coin",
+          "experience": "Ruby fruit · roasted ginger · aromatic spice · polished citrus finish",
+          "pairing": "Jerk cauliflower steak · coconut rundown · escovitch vegetables",
+          "profile": {
+            "sweetness": 3,
+            "citrus": 3,
+            "herbal": 3.5,
+            "body": 3.5,
+            "effervescence": 2.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/03-legacy.webp",
+          "imageAlt": "Legacy zero-proof sorrel cocktail with a clear ice sphere, dried blood orange, and sorrel garnish in a stemmed crystal goblet.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "renaissance",
+          "name": "Renaissance",
+          "number": "04",
+          "tagline": "Becoming, beautifully.",
+          "menuLine": "Pink Guava · Passion Fruit · Hibiscus · Lime · Pink Peppercorn",
+          "description": "Guava and passion fruit arrive vivid, hibiscus and lime give the composition lift, and a whisper of pink peppercorn extends the finish. Bright without becoming sweet; expressive without losing its poise.",
+          "closingLine": "Become more of who you came to be.",
+          "publicIngredients": [
+            "Pink-guava cordial",
+            "Fresh passion fruit",
+            "Hibiscus tea",
+            "Fresh lime",
+            "Pink-peppercorn syrup",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "pink-guava cordial"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "fresh passion-fruit nectar"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "chilled hibiscus tea"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "pink-peppercorn syrup"
+            },
+            {
+              "amount": "2 oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Shake everything except mineral water briefly with ice. Double-strain into a chilled coupe, add mineral water, and stir once.",
+          "glassware": "Wide crystal coupe",
+          "ice": "Served up; no service ice",
+          "garnish": "Fine lime spiral and one small hibiscus bloom",
+          "experience": "Tropical perfume · vivid acidity · floral lift · gently spiced finish",
+          "pairing": "King oyster mushroom scallops · mango-pepper relish · coconut-lime purée",
+          "profile": {
+            "sweetness": 3,
+            "citrus": 4,
+            "herbal": 2.5,
+            "body": 3,
+            "effervescence": 4
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/04-renaissance.webp",
+          "imageAlt": "Renaissance zero-proof cocktail with guava color, lime spiral, and hibiscus flower in a wide crystal coupe.",
+          "photographyStatus": "Website asset linked"
+        }
+      ]
+    },
+    {
+      "id": "reserve-collection",
+      "name": "Reserve Collection",
+      "description": "Rare ingredients, measured service, and slower rituals. These compositions reward attention and reveal themselves in chapters rather than all at once.",
+      "promise": "Rare ingredients · slower rituals",
+      "drinks": [
+        {
+          "id": "the-sovereign",
+          "name": "The Sovereign",
+          "number": "05",
+          "tagline": "Command, without volume.",
+          "menuLine": "Blackcurrant · Mission Fig · Smoked Tea · Cacao · Verjus",
+          "description": "Blackcurrant and fig establish a dark-fruit center while smoked tea, cacao, and white verjus create structure around it. The finish is dry, composed, and quietly commanding.",
+          "closingLine": "Authority does not need to announce itself.",
+          "publicIngredients": [
+            "Blackcurrant–Mission fig cordial",
+            "Cold-smoked black tea",
+            "White verjus",
+            "Cacao-nib and black-cardamom infusion",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1¼ oz",
+              "ingredient": "blackcurrant–Mission fig cordial"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "cold-smoked black tea"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "white verjus"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "cacao-nib and black-cardamom infusion"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Stir the still ingredients with ice until chilled. Strain over one clear diamond, finish with mineral water, and stir once.",
+          "glassware": "Faceted double old-fashioned",
+          "ice": "One hand-cut clear diamond",
+          "garnish": "Charred fig slice and three cacao nibs on a slim pick",
+          "experience": "Dark fruit · measured smoke · cacao depth · dry vinous finish",
+          "pairing": "Peppered oyster-mushroom medallion · cassava fondant · black-garlic jus",
+          "profile": {
+            "sweetness": 2.5,
+            "citrus": 2,
+            "herbal": 3.5,
+            "body": 4.5,
+            "effervescence": 1.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/05-the-sovereign.webp",
+          "imageAlt": "The Sovereign zero-proof cocktail with dark fruit, charred fig, cacao accents, and clear ice in a faceted rocks glass.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "midnight-gold",
+          "name": "Midnight Gold",
+          "number": "06",
+          "tagline": "Dark room. Golden center.",
+          "menuLine": "Roasted Pineapple · Saffron · Toasted Coconut · Lime · Black Pepper",
+          "description": "Roasted pineapple carries caramelized depth, saffron gives the center a golden aromatic glow, and toasted coconut water keeps the finish long, mineral, and unexpectedly dry.",
+          "closingLine": "Keep the light that belongs to you.",
+          "publicIngredients": [
+            "Roasted-pineapple cordial",
+            "Toasted coconut water",
+            "Fresh lime",
+            "Saffron–vanilla syrup",
+            "Sparkling mineral water",
+            "Black-pepper saline"
+          ],
+          "recipe": [
+            {
+              "amount": "1½ oz",
+              "ingredient": "roasted-pineapple cordial"
+            },
+            {
+              "amount": "1¼ oz",
+              "ingredient": "toasted coconut water"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "saffron–vanilla syrup"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "black-pepper saline"
+            }
+          ],
+          "method": "Shake everything except mineral water with ice. Fine-strain into a goblet over one clear sphere and top with mineral water.",
+          "glassware": "Amber-rimmed crystal goblet",
+          "ice": "One large clear sphere",
+          "garnish": "Dehydrated pineapple fan and three visible saffron threads",
+          "experience": "Caramelized pineapple · saffron perfume · toasted coconut · pepper-bright finish",
+          "pairing": "Jerk-glazed cauliflower · coconut-rice croquette · pineapple chow",
+          "profile": {
+            "sweetness": 3,
+            "citrus": 3.5,
+            "herbal": 2,
+            "body": 3.5,
+            "effervescence": 2.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/06-midnight-gold.webp",
+          "imageAlt": "Midnight Gold zero-proof cocktail with roasted pineapple, saffron, and a clear ice sphere in an elegant crystal goblet.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "quiet-authority",
+          "name": "Quiet Authority",
+          "number": "07",
+          "tagline": "Nothing to prove.",
+          "menuLine": "Roasted Pear · Oolong · Lemon Verbena · Celery Seed · Lemon",
+          "description": "Roasted pear lends understated richness to floral oolong. Lemon verbena and celery seed sharpen the architecture, leaving a restrained, elegant finish with no wasted movement.",
+          "closingLine": "Restraint is its own kind of power.",
+          "publicIngredients": [
+            "Roasted-pear cordial",
+            "Chilled floral oolong",
+            "Fresh lemon",
+            "Lemon-verbena syrup",
+            "Celery-seed infusion",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1¼ oz",
+              "ingredient": "roasted-pear cordial"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "chilled floral oolong"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "lemon-verbena syrup"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "celery-seed infusion"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Stir all ingredients with ice until cold and silky. Fine-strain into a chilled Nick & Nora glass.",
+          "glassware": "Crystal Nick & Nora",
+          "ice": "Served up; no service ice",
+          "garnish": "Long pear-skin ribbon and one lemon-verbena leaf",
+          "experience": "Roasted pear · floral tea · green aromatic tension · dry finish",
+          "pairing": "Ackee tartlet · thyme pastry · pickled scallion",
+          "profile": {
+            "sweetness": 2,
+            "citrus": 2.5,
+            "herbal": 4,
+            "body": 3,
+            "effervescence": 1
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/07-quiet-authority.webp",
+          "imageAlt": "Quiet Authority zero-proof pear and oolong cocktail with a pear ribbon and green leaf in a crystal coupe.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "afterglow",
+          "name": "Afterglow",
+          "number": "08",
+          "tagline": "The night leaves gently.",
+          "menuLine": "Blood Orange · Apricot · Rooibos · Sumac · Vanilla",
+          "description": "Blood orange and apricot move through soft rooibos and vanilla before sumac lifts the finish. Warm in color, bright in structure, and designed for the unhurried final hour.",
+          "closingLine": "Leave with the warmth, not the weight.",
+          "publicIngredients": [
+            "Blood-orange cordial",
+            "Apricot nectar",
+            "Chilled rooibos",
+            "Fresh lemon",
+            "Sumac–vanilla syrup",
+            "Sparkling mineral water"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "blood-orange cordial"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "apricot nectar"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "chilled rooibos"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "sumac–vanilla syrup"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "sparkling mineral water"
+            }
+          ],
+          "method": "Shake everything except mineral water with ice. Double-strain into a chilled coupe and finish with mineral water.",
+          "glassware": "Low crystal coupe",
+          "ice": "Served up; no service ice",
+          "garnish": "Apricot ribbon and a restrained line of sumac",
+          "experience": "Blood orange · ripe apricot · red tea · tart aromatic finish",
+          "pairing": "Tamarind-glazed tofu · sweet-potato purée · charred scallion",
+          "profile": {
+            "sweetness": 3,
+            "citrus": 4,
+            "herbal": 2.5,
+            "body": 3,
+            "effervescence": 3.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/08-afterglow.webp",
+          "imageAlt": "Afterglow zero-proof blood orange and apricot cocktail with an orange ribbon in a low crystal coupe.",
+          "photographyStatus": "Website asset linked"
+        }
+      ]
+    },
+    {
+      "id": "ital-collection",
+      "name": "Ital Collection",
+      "description": "Plant-first Caribbean compositions shaped by roots, leaves, fruit, spice, and restraint. Nourishing in spirit, generous in flavor, and alive from first aroma to final sip.",
+      "promise": "Botanical · grounded · alive",
+      "drinks": [
+        {
+          "id": "grounded",
+          "name": "Grounded",
+          "number": "09",
+          "tagline": "Rooted in what is real.",
+          "menuLine": "Beet · Carrot · Ginger · Lime · Thyme · Coconut Water",
+          "description": "Earthy beet and sweet carrot are sharpened by ginger and lime, while thyme and coconut water soften the edges. Vibrant, savory-leaning, and firmly connected to the ground.",
+          "closingLine": "Stand where your values can find you.",
+          "publicIngredients": [
+            "Fresh beet and carrot blend",
+            "Coconut water",
+            "Fresh lime",
+            "Ginger–thyme cordial",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1¼ oz",
+              "ingredient": "fresh beet and carrot blend"
+            },
+            {
+              "amount": "2 oz",
+              "ingredient": "coconut water"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "ginger–thyme cordial"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "3 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Shake all ingredients except mineral water with ice. Fine-strain into a Collins glass over pebble ice and top with mineral water.",
+          "glassware": "Textured crystal Collins",
+          "ice": "Pebble ice",
+          "garnish": "Carrot ribbon and a short thyme sprig",
+          "experience": "Sweet root · bright ginger · lime tension · savory herbal finish",
+          "pairing": "Jerk lentil fritters · mango slaw · tamarind pepper sauce",
+          "profile": {
+            "sweetness": 2.5,
+            "citrus": 3.5,
+            "herbal": 3,
+            "body": 3.5,
+            "effervescence": 2
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/09-grounded.webp",
+          "imageAlt": "Grounded zero-proof beet and carrot cocktail with pebble ice, carrot ribbon, and thyme in a tall crystal glass.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "provision",
+          "name": "Provision",
+          "number": "10",
+          "tagline": "Abundance, simply made.",
+          "menuLine": "Roasted Pineapple · Tamarind · Toasted Breadfruit · Coconut · Nutmeg",
+          "description": "Roasted pineapple and tamarind bring brightness to a subtle toasted-breadfruit cordial. Coconut water and nutmeg make the finish comforting, familiar, and deeply Caribbean.",
+          "closingLine": "Enough becomes abundance when it is shared.",
+          "publicIngredients": [
+            "Roasted-pineapple cordial",
+            "Tamarind concentrate",
+            "Toasted-breadfruit cordial",
+            "Fresh lime",
+            "Coconut water",
+            "Sparkling mineral water",
+            "Fresh nutmeg"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "roasted-pineapple cordial"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "tamarind concentrate"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "toasted-breadfruit cordial"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "2 oz",
+              "ingredient": "coconut water"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "sparkling mineral water"
+            }
+          ],
+          "method": "Shake the still ingredients with ice. Strain into a ceramic tumbler over one large cube, add mineral water, and grate nutmeg once.",
+          "glassware": "Hand-finished ceramic tumbler",
+          "ice": "One large clear cube",
+          "garnish": "Small pineapple-leaf fan and one pass of fresh nutmeg",
+          "experience": "Roasted fruit · tangy tamarind · toasted grain · coconut finish",
+          "pairing": "Roasted breadfruit · avocado choka · Scotch-bonnet oil",
+          "profile": {
+            "sweetness": 3,
+            "citrus": 3,
+            "herbal": 2,
+            "body": 4,
+            "effervescence": 1.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/10-provision.webp",
+          "imageAlt": "Provision zero-proof roasted pineapple and tamarind cocktail with a clear cube and pineapple leaf fan in a ceramic tumbler.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "green-wisdom",
+          "name": "Green Wisdom",
+          "number": "11",
+          "tagline": "Alive from leaf to finish.",
+          "menuLine": "Green Apple · Cucumber · Callaloo · Basil · Lime · Coconut Water",
+          "description": "Green apple and cucumber create a crisp opening; callaloo and basil add a leafy, savory middle; lime and coconut water return the finish to clarity.",
+          "closingLine": "Listen closely to what is still growing.",
+          "publicIngredients": [
+            "Clarified green-apple and cucumber juice",
+            "Callaloo–basil cordial",
+            "Fresh lime",
+            "Coconut water",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1½ oz",
+              "ingredient": "clarified green-apple and cucumber juice"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "callaloo–basil cordial"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "coconut water"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Build in a chilled highball over one clear spear. Add mineral water and lift gently from bottom to top.",
+          "glassware": "Slender highball",
+          "ice": "One long clear spear",
+          "garnish": "Cucumber ribbon and one polished basil leaf",
+          "experience": "Crisp orchard fruit · leafy green middle · bright lime · clean finish",
+          "pairing": "Callaloo-stuffed plantain cup · roasted tomato · herb oil",
+          "profile": {
+            "sweetness": 2,
+            "citrus": 4,
+            "herbal": 4.5,
+            "body": 2,
+            "effervescence": 3
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/11-green-wisdom.webp",
+          "imageAlt": "Green Wisdom zero-proof cocktail with cucumber ribbon, herb leaf, and a tall clear ice spear in a luminous green crystal highball.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "roots-and-reason",
+          "name": "Roots & Reason",
+          "number": "12",
+          "tagline": "Slow wisdom. Long finish.",
+          "menuLine": "Sarsaparilla · Ginger · Turmeric · Chicory · Lime · Blackstrap",
+          "description": "Sarsaparilla and toasted chicory establish a deep root structure. Ginger, turmeric, lime, and a trace of blackstrap bring warmth, brightness, and a long dry-spiced finish.",
+          "closingLine": "Think deeply. Choose deliberately.",
+          "publicIngredients": [
+            "Sarsaparilla–chicory concentrate",
+            "Ginger–turmeric syrup",
+            "Fresh lime",
+            "Blackstrap molasses",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "sarsaparilla–chicory concentrate"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "ginger–turmeric syrup"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "blackstrap molasses dilution"
+            },
+            {
+              "amount": "2½ oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Shake the still ingredients briefly with ice. Fine-strain over one clear cube, add mineral water, and stir.",
+          "glassware": "Heavy crystal rocks glass",
+          "ice": "One large clear cube",
+          "garnish": "Thin candied-ginger shard and expressed lime peel",
+          "experience": "Root spice · toasted bitterness · bright lime · dry molasses finish",
+          "pairing": "Brown-stew mushrooms · yam mash · braised greens",
+          "profile": {
+            "sweetness": 2.5,
+            "citrus": 3,
+            "herbal": 4.5,
+            "body": 4,
+            "effervescence": 3
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/12-roots-and-reason.webp",
+          "imageAlt": "Roots & Reason zero-proof cocktail with botanical depth, clear ice, and an aromatic garnish in a cut-crystal glass.",
+          "photographyStatus": "Website asset linked"
+        }
+      ]
+    },
+    {
+      "id": "sparkling-collection",
+      "name": "Sparkling Collection",
+      "description": "Effervescent compositions designed for arrivals, milestones, and tables that deserve a collective toast. Bright, lifted, and celebratory without becoming sugary.",
+      "promise": "Bright celebrations",
+      "drinks": [
+        {
+          "id": "first-light",
+          "name": "First Light",
+          "number": "13",
+          "tagline": "Begin beautifully.",
+          "menuLine": "Ruby Grapefruit · White Peach · Lemongrass · Rosemary",
+          "description": "Ruby grapefruit and white peach open with brightness; lemongrass and rosemary hold the center; a fine, persistent sparkle keeps the finish weightless.",
+          "closingLine": "Every beginning deserves intention.",
+          "publicIngredients": [
+            "Ruby-grapefruit cordial",
+            "White-peach nectar",
+            "Fresh lemon",
+            "Lemongrass–rosemary syrup",
+            "Chilled sparkling mineral water"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "ruby-grapefruit cordial"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "white-peach nectar"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "lemongrass–rosemary syrup"
+            },
+            {
+              "amount": "3 oz",
+              "ingredient": "chilled sparkling mineral water"
+            }
+          ],
+          "method": "Add chilled ingredients to a flute in sequence. Stir once from the base without disturbing the bead.",
+          "glassware": "Tall crystal flute",
+          "ice": "Served without ice",
+          "garnish": "Long grapefruit twist and one rosemary blossom",
+          "experience": "Ruby citrus · white peach · aromatic grass · persistent dry sparkle",
+          "pairing": "Citrus-avocado salad · toasted pumpkin seed · herbs",
+          "profile": {
+            "sweetness": 2,
+            "citrus": 4.5,
+            "herbal": 3,
+            "body": 1.5,
+            "effervescence": 5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/13-first-light.webp",
+          "imageAlt": "First Light zero-proof sparkling cocktail with pale citrus tones and a refined aromatic garnish in a crystal flute.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "jubilee",
+          "name": "Jubilee",
+          "number": "14",
+          "tagline": "Joy, made visible.",
+          "menuLine": "Strawberry · Lychee · Rose · Lemon",
+          "description": "Strawberry and lychee arrive generous and bright, rose appears as perfume rather than sweetness, and lemon gives the celebration a clean, lifted finish.",
+          "closingLine": "Let joy take up space.",
+          "publicIngredients": [
+            "Strawberry–lychee cordial",
+            "Fresh lemon",
+            "Rose-water syrup",
+            "Chilled sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1¼ oz",
+              "ingredient": "strawberry–lychee cordial"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "rose-water syrup"
+            },
+            {
+              "amount": "3 oz",
+              "ingredient": "chilled sparkling mineral water"
+            },
+            {
+              "amount": "1 drop",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Build in a chilled coupe. Add sparkling mineral water last and give one slow turn.",
+          "glassware": "Shallow crystal coupe",
+          "ice": "Served without ice",
+          "garnish": "Fine strawberry fan and one edible rose petal",
+          "experience": "Fresh berry · lychee perfume · soft rose · bright sparkling finish",
+          "pairing": "Watermelon–cucumber salad · mint · lime · toasted sesame",
+          "profile": {
+            "sweetness": 3,
+            "citrus": 3,
+            "herbal": 2.5,
+            "body": 2,
+            "effervescence": 5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/14-jubilee.webp",
+          "imageAlt": "Jubilee zero-proof sparkling cocktail with rosy strawberry tones and an elegant coupe presentation.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "golden-hour",
+          "name": "Golden Hour",
+          "number": "15",
+          "tagline": "Hold the light a little longer.",
+          "menuLine": "Mango · Tangerine · Chamomile · Ginger Flower",
+          "description": "Mango and tangerine create a radiant opening, chamomile softens the center, and ginger flower adds a delicate aromatic lift through the final bubbles.",
+          "closingLine": "Some moments are worth extending.",
+          "publicIngredients": [
+            "Mango–tangerine cordial",
+            "Chilled chamomile tea",
+            "Fresh lime",
+            "Ginger-flower syrup",
+            "Chilled sparkling mineral water"
+          ],
+          "recipe": [
+            {
+              "amount": "1¼ oz",
+              "ingredient": "mango–tangerine cordial"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "chilled chamomile tea"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "ginger-flower syrup"
+            },
+            {
+              "amount": "2½ oz",
+              "ingredient": "chilled sparkling mineral water"
+            }
+          ],
+          "method": "Build over one long clear spear in a wine goblet. Add sparkling mineral water and stir gently.",
+          "glassware": "Stemmed crystal wine goblet",
+          "ice": "One long clear spear",
+          "garnish": "Thin tangerine wheel and one chamomile flower",
+          "experience": "Golden fruit · bright citrus · soft chamomile · floral sparkle",
+          "pairing": "Curry-chickpea tartlet · mango chutney · scallion",
+          "profile": {
+            "sweetness": 3,
+            "citrus": 4,
+            "herbal": 2.5,
+            "body": 2.5,
+            "effervescence": 4.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/15-golden-hour.webp",
+          "imageAlt": "Golden Hour zero-proof sparkling cocktail with radiant orange tones, citrus, and a chamomile blossom in a crystal stemmed glass.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "celebration",
+          "name": "Celebration",
+          "number": "16",
+          "tagline": "Every reason is enough.",
+          "menuLine": "Concord Grape · Elderflower · Lemon · Thyme",
+          "description": "Concord grape brings color and depth while elderflower, lemon, and thyme keep the composition lifted. Fine bubbles turn even a private victory into a proper toast.",
+          "closingLine": "Mark the moment while you are fully in it.",
+          "publicIngredients": [
+            "Concord-grape and verjus cordial",
+            "Elderflower syrup",
+            "Fresh lemon",
+            "Thyme infusion",
+            "Chilled sparkling mineral water"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "Concord-grape and verjus cordial"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "elderflower syrup"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "thyme infusion"
+            },
+            {
+              "amount": "3 oz",
+              "ingredient": "chilled sparkling mineral water"
+            }
+          ],
+          "method": "Build in a chilled flute and lift once with a bar spoon to preserve the fine bead.",
+          "glassware": "Tall celebration flute",
+          "ice": "Served without ice",
+          "garnish": "Three small grapes and one tiny thyme tip",
+          "experience": "Purple fruit · floral lift · lemon brightness · dry herbal sparkle",
+          "pairing": "Crispy oyster-mushroom bites · pepper jelly · scallion",
+          "profile": {
+            "sweetness": 2.5,
+            "citrus": 3.5,
+            "herbal": 3,
+            "body": 2,
+            "effervescence": 5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/16-celebration.webp",
+          "imageAlt": "Celebration zero-proof cocktail with deep berry sparkle and a grape garnish in a tall celebratory flute.",
+          "photographyStatus": "Website asset linked"
+        }
+      ]
+    },
+    {
+      "id": "wellness-elixirs",
+      "name": "Wellness Elixirs",
+      "description": "Hydration-forward, tea-led, and botanical compositions created for how guests want to feel in the room: clear, replenished, balanced, and fully engaged.",
+      "promise": "Restorative by design",
+      "drinks": [
+        {
+          "id": "restore",
+          "name": "Restore",
+          "number": "17",
+          "tagline": "Return to yourself.",
+          "menuLine": "Coconut Water · Watermelon · Lime · Mint · Sea Salt",
+          "description": "Coconut water and fresh watermelon create a cooling base. Lime, mint, and a precise saline finish make the composition crisp, refreshing, and quietly replenishing.",
+          "closingLine": "Come back to the center.",
+          "publicIngredients": [
+            "Coconut water",
+            "Fresh watermelon",
+            "Fresh lime",
+            "Mint syrup",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "2 oz",
+              "ingredient": "coconut water"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "fresh watermelon juice"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "mint syrup"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "3 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Shake everything except mineral water with ice. Strain over pebble ice, top with mineral water, and crown with mint.",
+          "glassware": "Tall Collins glass",
+          "ice": "Pebble ice",
+          "garnish": "Watermelon ribbon and a compact mint crown",
+          "experience": "Cooling fruit · bright lime · fresh mint · clean saline finish",
+          "pairing": "Coconut ceviche · cucumber · hearts of palm · lime",
+          "profile": {
+            "sweetness": 2.5,
+            "citrus": 4,
+            "herbal": 3,
+            "body": 1.5,
+            "effervescence": 2.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/17-restore.webp",
+          "imageAlt": "Restore zero-proof wellness cocktail with chilled clarity, a tall ice spear, blueberries, and basil in a crystal highball.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "focus",
+          "name": "Focus",
+          "number": "18",
+          "tagline": "Clear energy. Clean finish.",
+          "menuLine": "Sencha · Blueberry · Lemon · Basil · Ginger",
+          "description": "Sencha gives the composition a clean tea structure; blueberry adds a quiet fruit note; lemon, basil, and ginger bring definition without heaviness.",
+          "closingLine": "Give the moment your full attention.",
+          "publicIngredients": [
+            "Chilled sencha green tea",
+            "Blueberry cordial",
+            "Fresh lemon",
+            "Basil–ginger syrup",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1½ oz",
+              "ingredient": "chilled sencha green tea"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "blueberry cordial"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "basil–ginger syrup"
+            },
+            {
+              "amount": "2 oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Build over one clear spear in a highball and stir gently. Contains naturally occurring caffeine from green tea.",
+          "glassware": "Clear highball",
+          "ice": "One long clear spear",
+          "garnish": "Three blueberries and one small basil leaf",
+          "experience": "Green tea · quiet berry · lemon definition · basil-ginger finish",
+          "pairing": "Green-plantain hummus · cassava crisps · herb oil",
+          "profile": {
+            "sweetness": 2,
+            "citrus": 3.5,
+            "herbal": 4,
+            "body": 2,
+            "effervescence": 3.5
+          },
+          "containsCaffeine": true,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/18-focus.webp",
+          "imageAlt": "Focus zero-proof wellness cocktail with warm pear tones and a fan of pear slices in an elegant coupe.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "balance",
+          "name": "Balance",
+          "number": "19",
+          "tagline": "Poise in every direction.",
+          "menuLine": "Pear · Rooibos · Ginger · Cardamom · Lemon",
+          "description": "Pear and rooibos create warmth without weight. Ginger, cardamom, and lemon move in equal measure, leaving the palate calm, clean, and centered.",
+          "closingLine": "Neither excess nor absence. Just enough.",
+          "publicIngredients": [
+            "Pear cordial",
+            "Chilled rooibos",
+            "Fresh lemon",
+            "Ginger–cardamom syrup",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "pear cordial"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "chilled rooibos"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "ginger–cardamom syrup"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Shake the still ingredients briefly with ice. Fine-strain into a stemmed glass and finish with mineral water.",
+          "glassware": "Small stemmed goblet",
+          "ice": "Served without ice",
+          "garnish": "Thin pear fan and one cracked green-cardamom pod",
+          "experience": "Soft pear · red tea · warming spice · centered citrus finish",
+          "pairing": "Mushroom patty · tamarind-onion jam · fresh herbs",
+          "profile": {
+            "sweetness": 2.5,
+            "citrus": 3,
+            "herbal": 3.5,
+            "body": 2.5,
+            "effervescence": 2.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/19-balance.webp",
+          "imageAlt": "Balance zero-proof wellness cocktail with amber depth, clear ice, ginger, and citrus in a crystal rocks glass.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "renewal",
+          "name": "Renewal",
+          "number": "20",
+          "tagline": "A brighter way forward.",
+          "menuLine": "Tart Cherry · Pomegranate · Rosemary · Lime",
+          "description": "Tart cherry and pomegranate create a vivid red-fruit core. Rosemary and lime sharpen the edges and leave a fresh, forward-moving finish.",
+          "closingLine": "Begin again without losing what you learned.",
+          "publicIngredients": [
+            "Tart-cherry cordial",
+            "Pomegranate juice",
+            "Fresh lime",
+            "Rosemary syrup",
+            "Sparkling mineral water",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "tart-cherry cordial"
+            },
+            {
+              "amount": "¾ oz",
+              "ingredient": "pomegranate juice"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lime juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "rosemary syrup"
+            },
+            {
+              "amount": "2½ oz",
+              "ingredient": "sparkling mineral water"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Build in a goblet over one clear sphere. Add mineral water last and stir gently.",
+          "glassware": "Crystal goblet",
+          "ice": "One clear sphere",
+          "garnish": "Short rosemary tip and a few pomegranate arils",
+          "experience": "Tart red fruit · fresh lime · aromatic rosemary · clean sparkle",
+          "pairing": "Smoked-beet carpaccio · orange · pistachio · herbs",
+          "profile": {
+            "sweetness": 2.5,
+            "citrus": 4,
+            "herbal": 3.5,
+            "body": 2.5,
+            "effervescence": 3
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/20-renewal.webp",
+          "imageAlt": "Renewal zero-proof wellness cocktail with fresh fruit color, crushed ice, mint, and a sculptural garnish in a tall crystal glass.",
+          "photographyStatus": "Website asset linked"
+        }
+      ]
+    },
+    {
+      "id": "dessert-seasonal",
+      "name": "Dessert & Seasonal",
+      "description": "Rich, aromatic compositions designed to close the meal with intention. Indulgent without becoming careless, and seasonal without becoming novelty.",
+      "promise": "A beautiful final chapter",
+      "drinks": [
+        {
+          "id": "velvet",
+          "name": "Velvet",
+          "number": "21",
+          "tagline": "Soft edges. Deep finish.",
+          "menuLine": "Black Cherry · Cold Brew · Vanilla · Cacao · Oat Cream",
+          "description": "Black cherry and cold brew create depth while vanilla, cacao, and oat cream soften the architecture. Silken, dark, and balanced enough to remain a drink rather than become dessert in a glass.",
+          "closingLine": "Indulgence can still have discipline.",
+          "publicIngredients": [
+            "Black-cherry cordial",
+            "Cold-brew coffee concentrate",
+            "Cacao–vanilla syrup",
+            "Oat cream",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "black-cherry cordial"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "cold-brew coffee concentrate"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "cacao–vanilla syrup"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "oat cream"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Shake hard with ice until fully aerated. Double-strain into a chilled coupe. Contains naturally occurring caffeine from coffee.",
+          "glassware": "Dark-rimmed crystal coupe",
+          "ice": "Served up; no service ice",
+          "garnish": "Fine cacao veil and one brandied-style alcohol-free cherry",
+          "experience": "Black cherry · roasted coffee · cacao · silken vanilla finish",
+          "pairing": "Dark-chocolate tart · cherry compote · cacao nib",
+          "profile": {
+            "sweetness": 3.5,
+            "citrus": 1,
+            "herbal": 2.5,
+            "body": 4.5,
+            "effervescence": 0
+          },
+          "containsCaffeine": true,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/21-velvet.webp",
+          "imageAlt": "Velvet zero-proof dessert cocktail with a silky cacao profile in a crystal coupe finished with chocolate shavings.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "cocoa-ceremony",
+          "name": "Cocoa Ceremony",
+          "number": "22",
+          "tagline": "Take your time.",
+          "menuLine": "Cacao · Toasted Coconut · Cinnamon · Orange · Oat Cream",
+          "description": "Cacao and toasted coconut form a deep, fragrant base. Cinnamon, orange oil, and oat cream create warmth and length, whether served chilled or as a slow warm ritual.",
+          "closingLine": "Some pleasures are meant to be unhurried.",
+          "publicIngredients": [
+            "Cacao-nib infusion",
+            "Toasted coconut milk",
+            "Orange oleo syrup",
+            "Cinnamon syrup",
+            "Oat cream",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1½ oz",
+              "ingredient": "cacao-nib infusion"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "toasted coconut milk"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "orange oleo syrup"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "cinnamon syrup"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "oat cream"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "For chilled service, shake with ice and strain into a ceramic cup. For warm service, heat gently without boiling and serve immediately.",
+          "glassware": "Black ceramic ceremonial cup",
+          "ice": "Chilled or warm service",
+          "garnish": "Toasted coconut and expressed orange oil",
+          "experience": "Deep cacao · toasted coconut · warm cinnamon · orange-oil finish",
+          "pairing": "Coconut bread pudding · alcohol-free caramel · orange zest",
+          "profile": {
+            "sweetness": 3.5,
+            "citrus": 1.5,
+            "herbal": 2.5,
+            "body": 5,
+            "effervescence": 0
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/22-cocoa-ceremony.webp",
+          "imageAlt": "Cocoa Ceremony zero-proof dessert cocktail with deep spiced cacao and cinnamon in a faceted crystal rocks glass.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "harvest-moon",
+          "name": "Harvest Moon",
+          "number": "23",
+          "tagline": "The season, gathered.",
+          "menuLine": "Roasted Apple · Pumpkin · Maple · Sage · Rooibos",
+          "description": "Roasted apple and pumpkin bring autumn depth; maple is used with restraint; sage and rooibos keep the finish aromatic, structured, and distinctly grown-up.",
+          "closingLine": "Gather what the season came to teach.",
+          "publicIngredients": [
+            "Roasted-apple and pumpkin cordial",
+            "Chilled toasted rooibos",
+            "Fresh lemon",
+            "Maple–sage syrup",
+            "Sparkling mineral water"
+          ],
+          "recipe": [
+            {
+              "amount": "1½ oz",
+              "ingredient": "roasted-apple and pumpkin cordial"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "chilled toasted rooibos"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "fresh lemon juice"
+            },
+            {
+              "amount": "¼ oz",
+              "ingredient": "maple–sage syrup"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "sparkling mineral water"
+            }
+          ],
+          "method": "Shake the still ingredients with ice. Strain over one clear cube, finish with mineral water, and stir once.",
+          "glassware": "Low crystal rocks glass",
+          "ice": "One large clear cube",
+          "garnish": "Thin roasted-apple chip and one small sage leaf",
+          "experience": "Roasted orchard fruit · pumpkin warmth · restrained maple · dry sage finish",
+          "pairing": "Apple-spice cake · pecan crumble · coconut cream",
+          "profile": {
+            "sweetness": 3.5,
+            "citrus": 2.5,
+            "herbal": 3,
+            "body": 4,
+            "effervescence": 1.5
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/23-harvest-moon.webp",
+          "imageAlt": "Harvest Moon zero-proof seasonal cocktail with apple, ginger, and warm spice over clear ice in a crystal rocks glass.",
+          "photographyStatus": "Website asset linked"
+        },
+        {
+          "id": "sunday-best",
+          "name": "Sunday Best",
+          "number": "24",
+          "tagline": "Save room for joy.",
+          "menuLine": "Roasted Sweet Potato · Chicory · Vanilla · Pecan · Nutmeg",
+          "description": "Roasted sweet potato, chicory, vanilla, and toasted pecan create a composed final course. Nutmeg lifts the aroma while oat cream carries a long, comforting finish.",
+          "closingLine": "End beautifully. Begin tomorrow clearly.",
+          "publicIngredients": [
+            "Roasted-sweet-potato and vanilla purée",
+            "Chicory coffee",
+            "Toasted-pecan syrup",
+            "Oat cream",
+            "Fresh nutmeg",
+            "Sea-salt solution"
+          ],
+          "recipe": [
+            {
+              "amount": "1 oz",
+              "ingredient": "roasted-sweet-potato and vanilla purée"
+            },
+            {
+              "amount": "1 oz",
+              "ingredient": "chicory coffee"
+            },
+            {
+              "amount": "½ oz",
+              "ingredient": "toasted-pecan syrup"
+            },
+            {
+              "amount": "1½ oz",
+              "ingredient": "oat cream"
+            },
+            {
+              "amount": "2 drops",
+              "ingredient": "sea-salt solution"
+            }
+          ],
+          "method": "Shake vigorously with ice until smooth and aerated. Double-strain into a small goblet and grate nutmeg once.",
+          "glassware": "Small crystal goblet",
+          "ice": "Served up; no service ice",
+          "garnish": "One pecan-praline shard and fresh nutmeg",
+          "experience": "Roasted sweet potato · toasted chicory · vanilla · pecan-spice finish",
+          "pairing": "Sweet-potato pudding · coconut whip · toasted pecan",
+          "profile": {
+            "sweetness": 4,
+            "citrus": 0.5,
+            "herbal": 2,
+            "body": 5,
+            "effervescence": 0
+          },
+          "containsCaffeine": false,
+          "price": null,
+          "availability": "Pending opening-menu approval",
+          "image": "assets/img/24-sunday-best.webp",
+          "imageAlt": "Sunday Best zero-proof seasonal cocktail with floral citrus and white grape notes in an elegant crystal coupe.",
+          "photographyStatus": "Website asset linked"
+        }
+      ]
+    }
+  ],
+  "photography": {
+    "status": "Drinks 01–24 photographed",
+    "imageBasePath": "assets/img/",
+    "nextBatch": "Photography complete"
+  },
+  "interfaceStatus": "All 24 drinks linked and reachable in desktop spreads and mobile reader."
+}

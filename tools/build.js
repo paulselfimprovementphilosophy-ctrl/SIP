@@ -48,6 +48,16 @@ for (const f of walk(path.join(SRC, 'assets'))) {
   fs.copyFileSync(f, path.join(OUT, rel));
 }
 
+// static: whole folders copied as-is to the site root (src/static/belonging -> site/belonging)
+const STATIC = path.join(SRC, 'static');
+if (fs.existsSync(STATIC)) {
+  for (const f of walk(STATIC)) {
+    const rel = path.relative(STATIC, f);
+    fs.mkdirSync(path.dirname(path.join(OUT, rel)), { recursive: true });
+    fs.copyFileSync(f, path.join(OUT, rel));
+  }
+}
+
 // pages
 let count = 0;
 for (const f of walk(path.join(SRC, 'pages'))) {

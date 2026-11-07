@@ -1,0 +1,83 @@
+/* =========================================================================
+   SIP — Book of Presence — Layout & Sizing Overrides
+   Loaded after styles.css. Only touches: page size/height, the gap between
+   the navbar and the book, the corner page-turn arrows, and heading sizes.
+   ========================================================================= */
+
+/* 1) Page height only, trimmed 10% off the original (1.25 -> 1.125
+      multiplier). Width is left at the original value. This is a mild trim,
+      not a drastic one -- text/content sizing inside each page was tuned
+      for the original page proportions, so shrinking further than this
+      causes content to overflow and get clipped at the bottom of the page. */
+:root {
+  --page-h: calc(var(--page-w) * 1.125);
+}
+
+/* 2) Kill the dead black space between the navbar and the book. The
+      original .experience box had a fixed min-height of 820px and generous
+      top/bottom padding, which centered a much-shorter book inside a much
+      taller box. */
+.experience {
+  min-height: 0;
+  padding: 14px 24px 18px;
+}
+
+.book-stage {
+  gap: 14px;
+}
+
+/* 3) Corner page-turn arrows — one pair per page, top and bottom, sitting
+      on the outer edge of the book (left edge = left page, right edge =
+      right page), matching the layout of a real book. */
+.corner-arrow {
+  position: absolute;
+  z-index: 40;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.corner-arrow svg { width: 16px; }
+
+.corner-prev { left: 10px; }
+.corner-next { right: 10px; }
+.corner-top { top: 10px; }
+.corner-bottom { bottom: 10px; }
+
+/* The mobile reader is a separate single-column view (below 760px) with its
+   own navigation, so hide the book's corner arrows there. */
+@media (max-width: 760px) {
+  .corner-arrow { display: none; }
+}
+
+/* 4) Smaller page headings (e.g. "Presence") so they don't dominate the
+      page. Applies across every page type that uses this heading style. */
+.editorial-page h2,
+.contents-page h2,
+.category-page h2,
+.drink-page h2,
+.signature-preview-page h2,
+.signature-complete-page h2,
+.complete-contents h2,
+.collection-page h2,
+.generated-drink h2,
+.pairing-page h2,
+.order-page h2 {
+  font-size: clamp(24px, 2.3vw, 40px) !important;
+}
+
+@media (max-width: 760px) {
+  .mobile-page .editorial-page h2,
+  .mobile-page .category-page h2,
+  .mobile-page .drink-page h2,
+  .mobile-page .signature-preview-page h2,
+  .mobile-page .signature-complete-page h2,
+  .mobile-page .complete-contents h2,
+  .mobile-page .collection-page h2,
+  .mobile-page .generated-drink h2,
+  .mobile-page .pairing-page h2,
+  .mobile-page .order-page h2 {
+    font-size: 30px !important;
+  }
+}
+

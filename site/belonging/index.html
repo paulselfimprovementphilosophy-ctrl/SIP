@@ -1,0 +1,48 @@
+<!doctype html>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#080706" name="theme-color"/>
+<meta content="The Book of Belonging — discover the dates, milestones, family celebrations, professional gatherings, and unforgettable nights that belong at SIP." name="description"/>
+<meta content="The Book of Belonging | SIP" property="og:title"/>
+<meta content="Whatever brought you here, you belong here." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="assets/img/family-reunion.webp" property="og:image"/>
+<title>The Book of Belonging | SIP</title>
+<link href="manifest.webmanifest?v=1.4.0" rel="manifest"/>
+<link href="assets/img/icon-192.png" rel="icon"/>
+<link href="assets/img/icon-192.png" rel="apple-touch-icon"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet"/>
+<link href="assets/css/styles.css?v=1.4.0" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+<button aria-label="Return to cover" class="brand" data-go="cover"><img alt="SIP — Self-Improvement Philosophy" src="assets/img/sip-logo.png"/></button>
+<nav aria-label="Book chapters">
+<button data-go="cover">Cover</button><button data-go="moments">Moments</button><button data-filter="Love">Love</button><button data-filter="Milestones">Milestones</button><button data-filter="Family">Family</button><button data-filter="Connection">Connection</button><button data-filter="Weekend">Weekend</button>
+</nav>
+<div class="actions"><button aria-label="Search" id="searchBtn">⌕</button><button aria-label="Full screen" id="fullBtn">⛶</button></div>
+</header>
+<main id="main">
+<section class="hero" id="cover">
+<div class="hero-bg"></div><div class="hero-shade"></div>
+<div class="hero-copy"><p class="eyebrow">SIP · CHICAGO</p><img alt="" aria-hidden="true" src="assets/img/sip-logo.png"/><p class="kicker">The Book of Belonging</p><h1 aria-label="Whatever Brought You Here" class="hero-title"><span class="title-whatever">Whatever</span><span class="title-brought">Brought You</span><span class="title-here">Here</span></h1><p class="hero-line">There is a place for your moment at SIP.</p><div class="hero-ctas"><button data-go="moments">What Are You Celebrating?</button><a href="tel:+13126120352">Call (312) 612-0352</a></div></div>
+<div class="scroll-cue">Scroll to open the book</div>
+</section>
+<section class="manifesto"><p class="eyebrow">The Invitation</p><h2>Life gives us reasons to gather.<br/>SIP gives those reasons somewhere worthy to happen.</h2><p>A first date. A promotion. A reunion. A new beginning. A Friday night you want to remember. Different reasons. Same table. No one asked to explain which one is theirs.</p><blockquote>We do not serve escape. We serve connection.</blockquote></section>
+<section class="finder" id="moments"><div><p class="eyebrow">The Moment Finder</p><h2>What brought you here?</h2><p>Choose the feeling first. We will show you the occasions that fit.</p></div><div class="filter-row"><button class="active" data-filter="All">All moments</button><button data-filter="Love">Love</button><button data-filter="Milestones">Milestones</button><button data-filter="Family">Family</button><button data-filter="Connection">Connection</button><button data-filter="Weekend">The Weekend</button></div></section>
+<section class="campaign-grid" id="campaignGrid"></section>
+<section class="planner" id="planner"><div class="planner-copy"><p class="eyebrow">Build Your SIP Moment</p><h2>Tell us what the night should feel like.</h2><p>Choose the occasion, size, and atmosphere. Your selections will create a ready-to-send event inquiry.</p></div><form id="momentForm"><label>What are you planning?<select name="occasion"><option>A first date or anniversary</option><option>A graduation or promotion</option><option>A family celebration</option><option>A professional gathering</option><option>A night out</option><option>Something uniquely mine</option></select></label><label>How many guests?<select name="guests"><option>2</option><option>3–10</option><option>11–25</option><option>26–50</option><option>50+</option></select></label><label>What should it feel like?<select name="mood"><option>Intimate</option><option>Elegant</option><option>Joyful</option><option>Energetic</option><option>Meaningful</option><option>Effortless</option></select></label><label>Your name<input name="name" required=""/></label><label>Email or phone<input name="contact" required=""/></label><button type="submit">Begin My Celebration</button></form></section>
+<section class="bridge"><img alt="SIP" src="assets/img/sip-logo.png"/><div><p class="eyebrow">Two Flagship Books. One SIP World.</p><h2>Choose the moment.<br/>Then choose what will be in your glass.</h2><p>The Book of Belonging helps guests discover why to gather. The Book of Presence helps them discover what to sip when they arrive.</p><a href="../SIP-Book-of-Presence/">Open The Book of Presence</a></div></section>
+<section class="visit"><p class="eyebrow">Whatever brought you here</p><h2 class="visit-title"><span>You Belong</span><em>Here.</em></h2><p>980 N Michigan Ave, Ste 1090 · Chicago, IL 60611</p><div><a href="tel:+13126120352">(312) 612-0352</a><a href="https://self-improvementphilosophylife.org">self-improvementphilosophylife.org</a></div></section>
+</main>
+<dialog id="searchDialog"><form class="dialog-head" method="dialog"><label for="searchInput">Search the book</label><button>×</button></form><input id="searchInput" placeholder="Try “family,” “promotion,” or “Friday”" type="search"/><div id="searchResults"></div></dialog>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script defer="" src="assets/js/app.js?v=1.4.0"></script>
+</body></html>

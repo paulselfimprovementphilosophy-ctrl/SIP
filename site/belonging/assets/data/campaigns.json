@@ -1,0 +1,110 @@
+[
+  {
+    "id": "first-date",
+    "title": "First Date at SIP",
+    "chapter": "Come Closer",
+    "tag": "Great conversations. No courage borrowed.",
+    "copy": "An intimate room, handcrafted zero-proof cocktails, premium food, and enough quiet for two people to actually hear one another.",
+    "image": "first-date.webp",
+    "audience": "Love",
+    "guests": "2–4",
+    "mood": "Intimate",
+    "cta": "Plan a Date Worth Remembering"
+  },
+  {
+    "id": "promotion-dinner",
+    "title": "Promotion Dinner",
+    "chapter": "Mark the Moment",
+    "tag": "You did the work. Celebrate the win.",
+    "copy": "A polished dinner built for the people who helped you get here—and the future you are ready to step into next.",
+    "image": "promotion-dinner.webp",
+    "audience": "Milestones",
+    "guests": "4–30",
+    "mood": "Elegant",
+    "cta": "Celebrate What Comes Next"
+  },
+  {
+    "id": "graduate-celebration",
+    "title": "Graduate Celebration",
+    "chapter": "Mark the Moment",
+    "tag": "The diploma is yours. The memory belongs to everyone.",
+    "copy": "Bring family, mentors, and friends together for a night that feels as important as the work behind it.",
+    "image": "graduate-celebration.webp",
+    "audience": "Milestones",
+    "guests": "8–60",
+    "mood": "Joyful",
+    "cta": "Plan the Graduation Dinner"
+  },
+  {
+    "id": "family-reunion",
+    "title": "Family Reunion at SIP",
+    "chapter": "Bring the Whole Family",
+    "tag": "From the newest arrival to the family legends.",
+    "copy": "A multigenerational celebration with premium food, handcrafted mocktails, music, dancing, and room for every age to belong.",
+    "image": "family-reunion.webp",
+    "audience": "Family",
+    "guests": "20–100+",
+    "mood": "Joyful",
+    "cta": "Bring Every Generation Together"
+  },
+  {
+    "id": "baby-shower",
+    "title": "Baby Shower After Party",
+    "chapter": "Bring the Whole Family",
+    "tag": "Welcome the newest reason to gather.",
+    "copy": "A beautiful continuation after the shower—designed for family, friends, food, photos, and a celebratory toast everyone can share.",
+    "image": "baby-shower.webp",
+    "audience": "Family",
+    "guests": "15–75",
+    "mood": "Meaningful",
+    "cta": "Plan the Welcome Celebration"
+  },
+  {
+    "id": "girls-night",
+    "title": "Girls’ Night at SIP",
+    "chapter": "Your Circle, Elevated",
+    "tag": "Good friends. Great drinks. An unforgettable night.",
+    "copy": "Dress up, reconnect, dance, and celebrate friendship in a room built for real moments and no next-morning regrets.",
+    "image": "girls-night.webp",
+    "audience": "Connection",
+    "guests": "4–40",
+    "mood": "Energetic",
+    "cta": "Plan Girls’ Night"
+  },
+  {
+    "id": "executive-social",
+    "title": "Executive Social Nights",
+    "chapter": "Your Circle, Elevated",
+    "tag": "Networking without the noise.",
+    "copy": "A sophisticated setting for leaders, founders, teams, clients, and professional communities to connect with clarity.",
+    "image": "executive-social.webp",
+    "audience": "Connection",
+    "guests": "10–80",
+    "mood": "Elegant",
+    "cta": "Host Your Circle at SIP"
+  },
+  {
+    "id": "doctors-after-hours",
+    "title": "Doctors After Hours",
+    "chapter": "Your Circle, Elevated",
+    "tag": "After the shift, come back to yourself.",
+    "copy": "A composed after-hours experience for healthcare professionals who want excellent food, genuine conversation, and a night they can fully remember.",
+    "image": "doctors-after-hours.webp",
+    "audience": "Connection",
+    "guests": "6–50",
+    "mood": "Effortless",
+    "cta": "Plan a Professional Social"
+  },
+  {
+    "id": "friday-no-hangover",
+    "title": "Friday Without the Hangover",
+    "chapter": "Remember the Night",
+    "tag": "The night you remember. The morning you love.",
+    "copy": "Live music, dancing, premium food, and handcrafted zero-proof cocktails—without giving tomorrow away.",
+    "image": "friday-no-hangover.webp",
+    "audience": "Weekend",
+    "guests": "1–100+",
+    "mood": "Energetic",
+    "cta": "Take Back Your Friday"
+  }
+]
