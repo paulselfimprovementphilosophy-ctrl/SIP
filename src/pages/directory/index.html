@@ -1,0 +1,43 @@
+<!--page title="Fair Chance Directory | S.I.P." desc="A searchable, sourced directory of Chicago employers, training programs and reentry organizations that hire returning citizens." nav="directory" scripts="directory-data.js,directory.js" -->
+
+<section class="hero short">
+  <div class="rings" aria-hidden="true"><svg viewBox="0 0 1000 1000"><circle class="ring" cx="500" cy="500" r="190" style="opacity:.4"/><circle class="ring" cx="500" cy="500" r="290" style="opacity:.3"/><circle class="ring" cx="500" cy="500" r="390" style="opacity:.2"/><circle class="ring" cx="500" cy="500" r="490" style="opacity:.12"/></svg></div>
+  <div class="wrap">
+    <span class="eyebrow rise">Fair Chance Directory</span>
+    <h1 class="rise" style="--d:.1s">Every door we know of, <em>in one place.</em></h1>
+    <p class="lead rise" style="--d:.24s">Employers, training programs and reentry organizations across Chicago that hire people with records. Tier 1 marks the highest documented hiring volume.</p>
+  </div>
+</section>
+
+<div class="dir-bar">
+  <div class="wrap">
+    <div class="dir-tools">
+      <label class="search"><span class="sr-only" style="position:absolute;left:-999px">Search the directory</span>
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><path d="m13 13 5 5"/></svg>
+        <input id="q" type="search" placeholder="Search employers, roles, programs" autocomplete="off">
+      </label>
+      <span class="dir-count" id="dir-count" aria-live="polite">&nbsp;</span>
+    </div>
+    <div class="chips" id="chips" style="margin-top:14px" role="group" aria-label="Filter by sector"></div>
+  </div>
+</div>
+
+<section class="pad-sm" style="padding-top:clamp(28px,4vw,48px)">
+  <div class="wrap">
+    <div class="notice brass reveal">
+      <b>Use this as a starting point.</b> Details change. Programs reopen, close and rename themselves. Entries marked <span class="badge verify" style="vertical-align:middle">Verify</span> rest on a number or status that has not been re-checked. Confirm with the employer or program before referring anyone.
+    </div>
+    <div class="dir-grid" id="dir-grid"></div>
+    <p class="empty" id="dir-empty" hidden>Nothing matches that search. Try a broader word.</p>
+    <p class="small" style="margin-top:56px;max-width:70ch">Compiled from public program pages, City of Chicago and State of Illinois resources and local news coverage, Nov 4, 2026. Staffing note: a claim that an agency posts &ldquo;no background check&rdquo; jobs is true job by job, not as company policy. A companion spreadsheet holds contact person, phone, email, address and hours for each entry.</p>
+  </div>
+</section>
+
+<section class="band-dark pad cta-band">
+  <div class="wrap">
+    <span class="eyebrow">Know a door that should be here?</span>
+    <h2 style="margin-top:1.4rem">Help us keep it <em>true.</em></h2>
+    <p class="lead" style="margin-top:1.4rem">Employers and programs can ask to be added or corrected.</p>
+    <div class="btn-row"><a class="btn" href="{{root}}contact/index.html">Contact us <svg class="arr" viewBox="0 0 22 10" fill="none"><path d="M0 5h20M16 1l4 4-4 4" stroke="currentColor"/></svg></a></div>
+  </div>
+</section>

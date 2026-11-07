@@ -1,0 +1,163 @@
+/*
+  Fair Chance Directory data. Source: the S.I.P. research documents (Nov 4, 2026).
+  Edit this file, then run:  node tools/build.js
+  Fields:  n name · s sector key · t 1 = Tier 1 (highest documented volume) · b blurb · r entry roles
+           h "how to start" steps · u official URL · x extra line (phone, address) · v verify note (shows a badge)
+  URLs are only those cited in the research. Contact details beyond what is here live in the separate directory spreadsheet.
+*/
+window.SIP_DIRECTORY = {
+  sectors: {
+    public:      'Public sector & transit',
+    reentry:     'Reentry & transitional jobs',
+    health:      'Healthcare',
+    industry:    'Warehouse & manufacturing',
+    retail:      'Grocery, retail & finance',
+    staffing:    'Staffing',
+    cdl:         'Transportation & CDL',
+    trades:      'Construction & trades',
+    hospitality: 'Hospitality & food'
+  },
+  entries: [
+    /* ---------- PUBLIC ---------- */
+    { n: 'Chicago Transit Authority: Second Chance Program', s: 'public', t: 1,
+      b: 'The largest documented dedicated hiring stream for returning citizens in the region. Up to 315 participants employed at one time; about 3,000 served since 2011 and more than 900 hired permanently, some rising to management.',
+      r: 'Bus and rail car servicer apprentice; paid training toward a Commercial Learner’s Permit; path to permanent union jobs. 40 hours a week for at least a year, with free transit on CTA, Metra and Pace.',
+      h: ['Submit the online interest survey on the CTA website. Applications are rolling year-round, and open hiring events need no social-service referral.', 'Attend a hiring event or interview. CTA also takes referrals from partner agencies and has worked to extend conditional offers before IDOC release.', 'Complete the background review. A record does not automatically disqualify.', 'Begin as a paid temporary full-time apprentice servicer, with case management.', 'Apply for permanent CTA positions during and after the program.'],
+      u: 'https://www.transitchicago.com/secondchance/', v: 'Program numbers come from news and program pages and change yearly.' },
+    { n: 'City of Chicago', s: 'public', t: 1,
+      b: 'One of the largest employers in the city, with thousands of annual openings and a formal Fair Chance Hiring commitment through the Office of Reentry.',
+      r: 'Clerical, laborers, custodial, trades, CDL drivers, administrative and professional roles across all departments.',
+      h: ['Apply through the City careers portal.', 'Background review comes after a conditional offer under the fair chance ordinance, with individualized review of rehabilitation and time elapsed.', 'Contact the Office of Reentry for help with the process.'],
+      u: 'https://www.chicago.gov/city/en/sites/community-safety/home/office-of-reentry/jobs-and-workforce-training.html',
+      x: 'Chicago’s Fair Chance Ordinance bars most private employers with 5 or more employees from asking about criminal history until after a conditional offer.' },
+    { n: 'Greencorps Chicago', s: 'public', t: 1,
+      b: 'The City’s paid green-industry training program for people with barriers to employment. Nearly 700 graduates over 30 years, with 75 to 80 percent placed into jobs in recent years.',
+      r: 'Ecological restoration, landscaping, tree care, carpentry, green infrastructure. $18.50 an hour, 30+ hours a week, 7 to 9 months, with wraparound services and a placement coordinator.',
+      h: ['Apply at greencorpschicago.org or call 312-746-9777. Cohorts are 25 to 45 people a year, so apply by early spring.', 'Interview and screening: Chicago resident, 18 or older, able to lift 50 lbs, drug-free. Explicitly open to people with records.', 'Complete the paid cohort.', 'Work with the placement coordinator toward permanent jobs (Chicago Park District, Forest Preserves, Christy Webber, Cardno, Safety-Kleen and others).'],
+      u: 'https://greencorpschicago.org/', x: 'Phone 312-746-9777', v: 'Placement rate and cohort size come from news coverage and change yearly.' },
+    { n: 'Cook County, State of Illinois, Park District, Forest Preserves, City Colleges', s: 'public',
+      b: 'Public employers with fair chance policies and civil-service pathways.',
+      r: 'Civil-service positions across departments.',
+      h: ['Search each employer’s careers page for open civil-service postings.', 'Ask about its fair chance or conditional-offer process before applying.'] },
+
+    /* ---------- REENTRY ---------- */
+    { n: 'Safer Foundation', s: 'reentry', t: 1,
+      b: 'The region’s largest reentry-focused workforce organization. Connects candidates directly to record-friendly industrial, commercial and logistics employers.',
+      r: 'Job readiness, employer referral, post-placement retention coaching.',
+      h: ['Register at a placement center.', 'Complete intake and job-readiness workshops: resume, interview practice, expungement and sealing help.', 'Get matched through the direct employer referral network, bypassing standard online application systems.', 'Receive post-placement retention coaching.'],
+      u: 'https://saferfoundation.org/', x: '571 W. Jackson Blvd and 808 S. Kedzie Ave' },
+    { n: 'Sweet Beginnings / beelove (North Lawndale Employment Network)', s: 'reentry', t: 1,
+      b: 'A social enterprise with more than 500 formerly incarcerated employees since it began. Full-time transitional jobs in honey and body-care production, plus placement coaching.',
+      r: 'Production roles in honey and body care; transitional employment with coaching and permanent placement.',
+      h: ['Apply through the North Lawndale Employment Network.', 'Screening focuses on readiness and motivation rather than the record.', 'Transitional employment pairs with coaching and permanent placement.'],
+      u: 'https://blockclubchicago.org/2019/10/14/bees-honey-and-beeswax-have-now-given-500-people-a-second-chance/', v: 'Headcount is from 2019 news coverage. Confirm the current number.' },
+    { n: 'Cara Collective (The Cara Program)', s: 'reentry',
+      b: 'Mission-driven staffing that places people with employment barriers. Also one of the City’s transitional-jobs delegate agencies.',
+      r: 'Temp-to-hire and transitional placements across industries.',
+      h: ['Contact Cara to ask about the current intake process.'] },
+    { n: 'City Transitional Jobs for Returning Residents: seven delegate agencies', s: 'reentry',
+      b: 'The City’s transitional jobs program for returning residents runs through seven delegate agencies: Career Advancement Network, Community Assistance Programs, Haymarket Center, North Lawndale Employment Network, The Cara Program, Salvation Army Harbor Light and Westside Health Authority.',
+      r: 'Transitional employment with coaching.',
+      h: ['Choose the delegate agency nearest to you, or ask the Office of Reentry for a referral.'],
+      u: 'https://www.chicago.gov/city/en/depts/fss/supp_info/transitional_jobsforex-offendersprogramlocations.html' },
+    { n: 'Fillmore Linen Service', s: 'reentry',
+      b: 'A North Lawndale commercial laundry that prioritizes formerly incarcerated job-seekers and people in recovery.',
+      r: 'Laundry and linen production.',
+      h: ['Ask about openings directly, or through a delegate agency such as the North Lawndale Employment Network.'],
+      u: 'https://chicago.suntimes.com/work/2026/07/18/fillmore-linen-service-jobs-opportunity-north-lawndale' },
+
+    /* ---------- HEALTH ---------- */
+    { n: 'Advocate Health: Fair Chance Hiring Program', s: 'health',
+      b: 'A formal program with workforce-readiness training, coaching and community-partner referrals. Advocate Illinois Masonic alone hired 42 people with records starting in 2020.',
+      r: 'Environmental services, food service, patient transport, materials handling, clinical support tech. Licensed clinical roles require Illinois licensing review.',
+      h: ['Review the training programs on the Advocate careers site.', 'Contact the Fair Chance Hiring team to be connected to a community partner.'],
+      u: 'https://careers.advocatehealth.org/training-programs/', x: 'FairChanceHiring@advocatehealth.org (confirm before using)' },
+    { n: 'Rush University Medical Center', s: 'health',
+      b: 'Hires West Side residents through its Community Application Hub and community partners. Its Fillmore Linen partnership created 175 stable jobs.',
+      r: 'Hospital support and operations roles.',
+      h: ['Use the Community Application Hub, or ask a community partner for a referral.'],
+      u: 'https://www.rush.edu/about-us/rush-community/rushs-anchor-mission-strategy/rush-community-application-hub' },
+    { n: 'CommonSpirit Health (Chicago locations)', s: 'health',
+      b: 'States that qualified applicants with convictions are considered, consistent with law.',
+      r: 'Hospital and clinic roles.',
+      h: ['Search the Chicago postings on the CommonSpirit careers site.'] },
+    { n: 'Presence Health (legacy system)', s: 'health',
+      b: 'Partnered with Safer Foundation and hired 25 to 30 formerly incarcerated people in housekeeping, food service and patient transport.',
+      r: 'Housekeeping, food service, patient transport.',
+      h: ['Confirm which health system now operates the former Presence Health hospitals before referring anyone.'],
+      v: 'Presence Health is a legacy system name. Confirm the current operator.' },
+
+    /* ---------- INDUSTRY ---------- */
+    { n: 'Amazon', s: 'industry',
+      b: 'A national fair-chance employer with multiple Chicago-area fulfillment facilities.',
+      r: 'Fulfillment and warehouse roles.', h: ['Apply through the Amazon jobs site; filter to Chicago-area facilities.'] },
+    { n: 'UPS', s: 'industry',
+      b: 'Package handler and sorter roles are consistently reported as open to applicants with records. Hiring emphasizes shift availability and physical capability.',
+      r: 'Package handler, sorter.', h: ['Apply through the UPS careers site.'] },
+    { n: 'Second Chance Business Coalition: manufacturers', s: 'industry',
+      b: 'General Motors, PepsiCo, Koch Industries, Georgia-Pacific, Micron, Texas Instruments, BorgWarner, Flowers Foods and LKQ. More than 80 percent of coalition members review candidates without a hard stop on convictions.',
+      r: 'Production and plant roles.', h: ['Check each member’s Chicago-area postings.'],
+      u: 'https://secondchancebusinesscoalition.org/' },
+    { n: 'Greater West Town Community Development Project', s: 'industry',
+      b: 'Free woodworking and shipping/receiving (forklift) training with job placement and retention support.',
+      r: 'Woodworking, shipping and receiving, forklift.', h: ['Contact the organization about the next training cohort.'],
+      u: 'https://osad.illinois.gov/expungement/resources-for-returning-citizens.html' },
+
+    /* ---------- RETAIL & FINANCE ---------- */
+    { n: 'Kroger (Food 4 Less, Mariano’s) and KeHE Distributors', s: 'retail',
+      b: 'Both are Second Chance Business Coalition members, with union grocery and distribution jobs across Chicago.',
+      r: 'Stocking, distribution, store roles.', h: ['Apply through each company’s careers site.'],
+      u: 'https://secondchancebusinesscoalition.org/' },
+    { n: 'Second Chance Business Coalition: retailers', s: 'retail',
+      b: 'Walmart, Target, Home Depot, Lowe’s, Best Buy, Macy’s, Gap, DICK’S Sporting Goods, Ralph Lauren, Walgreens, CVS, McDonald’s and Starbucks, all with Chicago locations.',
+      r: 'Store and branch roles.', h: ['Apply through each company’s careers site.'],
+      u: 'https://secondchancebusinesscoalition.org/' },
+    { n: 'JPMorgan Chase', s: 'retail',
+      b: 'About 10 percent of its U.S. new hires, roughly 3,000 people in 2023, have records.',
+      r: 'Branch and operations roles.', h: ['Apply through the Chase careers site.'],
+      u: 'https://www.worklife.news/talent/why-more-employers-are-tapping-an-overlooked-talent-pool-those-with-criminal-records/' },
+
+    /* ---------- STAFFING ---------- */
+    { n: 'Kelly Services', s: 'staffing', b: 'A national Second Chance Business Coalition member with Chicago branches.', r: 'Temp-to-hire across industries.',
+      h: ['Register at a Chicago branch.'], x: 'Claims that an agency posts “no background check” jobs are true job by job, not as company policy. Verify each posting.' },
+    { n: 'Randstad', s: 'staffing', b: 'A national Second Chance Business Coalition member with Chicago branches.', r: 'Temp-to-hire across industries.',
+      h: ['Register at a Chicago branch.'] },
+    { n: 'Safer Foundation Employment Solutions', s: 'staffing', b: 'The staffing arm of the region’s largest reentry workforce organization.', r: 'Temp-to-hire across industries.',
+      h: ['Start through Safer Foundation intake.'], u: 'https://saferfoundation.org/' },
+
+    /* ---------- CDL ---------- */
+    { n: 'FreeWorld', s: 'cdl', b: 'A nonprofit that covers CDL training and guarantees placement for justice-impacted individuals.', r: 'CDL driver.', h: ['Apply through FreeWorld.'],
+      u: 'https://www.cdlschoolsusa.com/blog/re-entry-trucking-programs-directory' },
+    { n: '160 Driving Academy', s: 'cdl', b: 'Accepts WIOA grants. The State of Illinois may pay full tuition for formerly incarcerated applicants.', r: 'CDL driver.', h: ['Ask about WIOA eligibility at enrollment.'],
+      u: 'https://www.cdlschoolsusa.com/blog/re-entry-trucking-programs-directory' },
+    { n: 'Mid-City Truck Driving Academy, City Colleges CDL, College of DuPage, Prairie State College', s: 'cdl',
+      b: 'CDL training programs open to returning citizens.', r: 'CDL driver.', h: ['Ask each program about WIOA funding and record-related screening.'],
+      u: 'https://www.cdlschoolsusa.com/blog/cdl-grants-felons-second-chance-funding-2026' },
+    { n: 'CDL & logistics employers at Chicago Cook Workforce Partnership fairs', s: 'cdl',
+      b: 'FedEx Freight, Greyhound, Pace, UPS, First Student, Illinois Tollway and others recruit CDL and logistics roles at the partnership’s fairs.',
+      r: 'CDL driver, logistics.', h: ['Watch the Chicago Cook Works event calendar for the next recruitment fair.'],
+      u: 'https://chicookworks.org/event/cdl-transportation-recruitment-fair/',
+      x: 'Funding: WIOA explicitly covers justice-involved applicants. Second Chance Act and DOL Reentry Employment Opportunities grants also apply.' },
+
+    /* ---------- TRADES ---------- */
+    { n: 'CONSTRUCT Infrastructure Academy', s: 'trades',
+      b: 'A Chicago Urban League and ComEd pre-apprenticeship preparing Chicagoans for Registered Apprenticeships, union trades and utilities. Includes CDL permit prep.',
+      r: 'Pre-apprenticeship, apprenticeship.', h: ['Watch the Chicago Urban League for the next cohort.'],
+      u: 'https://chiul.org/event/construct-infrastructure-academy-2027/' },
+    { n: 'Chicago Women in Trades', s: 'trades', b: 'A training pipeline into construction apprenticeships with fair-chance employer partners.', r: 'Apprenticeship.', h: ['Contact the organization about the next intake.'] },
+    { n: 'St. Leonard’s Ministries: Michael Barlow Center', s: 'trades', b: 'A training pipeline into construction apprenticeships with fair-chance employer partners.', r: 'Apprenticeship.', h: ['Contact the Barlow Center about the next intake.'] },
+    { n: 'IMAN Green ReEntry', s: 'trades', b: 'A training pipeline into construction and green-economy apprenticeships.', r: 'Apprenticeship.', h: ['Contact the organization about the next intake.'] },
+    { n: 'Project H.O.O.D.', s: 'trades', b: 'Construction training cohorts, CDL classes and job placement services.', r: 'Construction, CDL.', h: ['Contact the organization about the next cohort.'],
+      u: 'https://osad.illinois.gov/expungement/resources-for-returning-citizens.html' },
+
+    /* ---------- HOSPITALITY ---------- */
+    { n: 'Inspiration Kitchens', s: 'hospitality', b: 'A social enterprise documented as hiring formerly incarcerated workers, with on-site training.', r: 'Kitchen, front of house.', h: ['Contact the organization about openings.'] },
+    { n: 'Curt’s Café (Evanston)', s: 'hospitality', b: 'Documented as hiring formerly incarcerated workers, with on-site training.', r: 'Kitchen, front of house.', h: ['Contact the café about openings.'],
+      v: 'Confirm it is still operating and still hiring this way.' },
+    { n: 'Felony Franks', s: 'hospitality', b: 'Documented as hiring formerly incarcerated workers, with on-site training.', r: 'Kitchen, front of house.', h: ['Contact the business about openings.'],
+      v: 'Confirm it is still operating and still hiring this way.' },
+    { n: 'Lou Malnati’s (Lawndale)', s: 'hospitality', b: 'Documented as hiring formerly incarcerated workers, with on-site training.', r: 'Kitchen, front of house.', h: ['Contact the restaurant about openings.'],
+      v: 'Confirm the Lawndale arrangement is still in place.' },
+    { n: 'UNITE HERE Local 1', s: 'hospitality', b: 'Represents more than 10,000 hotel, casino and restaurant workers in Chicago. Hospitality fairs connect returning residents to hotel and dining roles.', r: 'Hotel, restaurant, casino.', h: ['Watch for Local 1 hospitality fairs.'] }
+  ]
+};
