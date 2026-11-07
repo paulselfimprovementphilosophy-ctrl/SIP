@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Paul: finish moving your domain to Cloudflare</title>
+<style>
+  :root { --ink:#0d111c; --muted:#5b5f66; --bg:#f5f7fd; --card:#fff; --line:#dde2f4; --accent:#4a30c0; --ok:#1d7a46; --warn:#8a5a00; --warnbg:#fff6df; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.6 "Open Sans", system-ui, Segoe UI, Arial, sans-serif; }
+  .wrap { max-width:780px; margin:0 auto; padding:32px 20px 80px; }
+  h1 { font:300 2.2rem/1.15 Georgia, "Times New Roman", serif; margin:0 0 8px; }
+  h2 { font:600 1.25rem/1.3 system-ui, Arial, sans-serif; margin:0 0 10px; }
+  p { margin:0 0 12px; }
+  .lead { color:var(--muted); font-size:1.05rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:22px 24px; margin:18px 0; }
+  .step { display:flex; gap:18px; }
+  .num { flex:none; width:40px; height:40px; border-radius:50%; background:var(--ink); color:#fff; display:grid; place-items:center; font-weight:700; }
+  .num.done { background:var(--ok); }
+  a.btn { display:inline-block; background:var(--ink); color:#fff; text-decoration:none; padding:12px 20px; border-radius:6px; font-weight:600; margin:6px 0 4px; }
+  a.btn:hover { background:var(--accent); }
+  a { color:var(--accent); }
+  .note { background:var(--warnbg); border:1px solid #f0d99a; color:var(--warn); border-radius:8px; padding:12px 16px; margin:14px 0; font-size:.95rem; }
+  .done-list { margin:0; padding-left:1.2rem; color:var(--muted); }
+  table { width:100%; border-collapse:collapse; font-size:.98rem; margin-top:8px; }
+  td { padding:7px 0; border-bottom:1px solid var(--line); vertical-align:top; }
+  td:first-child { color:var(--muted); width:38%; }
+  .small { font-size:.9rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Finish moving your domain to Cloudflare</h1>
+  <p class="lead">Domain: <b>self-improvementphilosophylife.org</b>. Most of the work is already done. What is left is a few clicks and the payment, which only you can enter.</p>
+
+  <div class="card">
+    <h2>Already done and saved (you do not repeat any of this)</h2>
+    <ul class="done-list">
+      <li>The domain was added to your Cloudflare account (free plan) and your existing website and email settings were copied over.</li>
+      <li>Your domain's name servers at WordPress.com now point to Cloudflare.</li>
+      <li>The transfer lock at WordPress.com is turned off, and the authorization code was requested.</li>
+      <li>Your new website is built and live for preview at <a href="https://sip-e27.pages.dev/">sip-e27.pages.dev</a>.</li>
+    </ul>
+    <p class="small" style="margin-top:12px">Not saved yet: the transfer order itself. It only exists once you pay in step 4.</p>
+  </div>
+
+  <div class="note"><b>Please keep the Cloudflare tab open.</b> The transfer form in that tab is already filled in. If the tab was closed or refreshed, just start again at step 1. It takes about two minutes.</div>
+
+  <div class="card step">
+    <div class="num">1</div>
+    <div>
+      <h2>Open the Cloudflare transfer page</h2>
+      <p>Sign in to Cloudflare if it asks. Your domain should be listed as <b>Ready for transfer</b> ($11.20). Tick the box next to it and press <b>Continue</b>.</p>
+      <a class="btn" href="https://dash.cloudflare.com/a82eddd2d85b6f14968f6ccc66f66102/domains/transfers">Open Cloudflare Transfers</a>
+    </div>
+  </div>
+
+  <div class="card step">
+    <div class="num">2</div>
+    <div>
+      <h2>Paste the authorization code</h2>
+      <p>WordPress.com emailed the code to <b>p.a.kelly2361@gmail.com</b>. Open the newest message about <i>self-improvementphilosophylife.org</i>, copy the code, paste it into the box in Cloudflare and press <b>Continue</b>.</p>
+      <a class="btn" href="https://mail.google.com/">Open Gmail</a> <span class="small">(make sure you are signed in as p.a.kelly2361@gmail.com)</span>
+      <p class="small">If you cannot find it, request a new one here, then wait a few minutes: <a href="https://my.wordpress.com/domains/self-improvementphilosophylife.org/transfer">WordPress.com transfer page</a> → <i>Get authorization code</i>. Always use the newest code.</p>
+    </div>
+  </div>
+
+  <div class="card step">
+    <div class="num">3</div>
+    <div>
+      <h2>Check your contact details</h2>
+      <p>Cloudflare shows a form. It should already contain the details below. Fix anything that is wrong, then press <b>Continue to checkout</b>.</p>
+      <table>
+        <tr><td>Name</td><td>Paul Kelly</td></tr>
+        <tr><td>Organization</td><td>Self-Improvement Philosophy S.I.P. LLC</td></tr>
+        <tr><td>Address</td><td>980 N Michigan Ave, Ste 1090, Chicago, IL 60611, United States</td></tr>
+        <tr><td>Email</td><td>p.a.kelly2361@gmail.com</td></tr>
+        <tr><td>Phone</td><td>+1 (already filled in, ends in 5460)</td></tr>
+      </table>
+      <p class="small" style="margin-top:10px">Cloudflare hides these details from the public record for free.</p>
+    </div>
+  </div>
+
+  <div class="card step">
+    <div class="num">4</div>
+    <div>
+      <h2>Add your card and pay</h2>
+      <p>On the checkout page, add a payment method (card) and review the total. It should be about <b>$11.20</b> plus any sales tax. This covers the transfer and one year of registration. Then confirm.</p>
+      <p class="small">You can also add the card ahead of time here: <a href="https://dash.cloudflare.com/a82eddd2d85b6f14968f6ccc66f66102/billing/subscriptions">Cloudflare Billing</a>.</p>
+      <div class="note">Only you should type the card number. Nobody else needs it.</div>
+    </div>
+  </div>
+
+  <div class="card step">
+    <div class="num">5</div>
+    <div>
+      <h2>Approve the transfer email</h2>
+      <p>Within a few minutes WordPress.com and Cloudflare may email <b>p.a.kelly2361@gmail.com</b> to approve the transfer. Click <b>Approve</b> or the confirmation link in each message. Approving speeds it up. Without it, the transfer finishes on its own in about 5 to 7 days.</p>
+      <p>Your website and your email (<b>pkelly@self-improvementphilosophylife.org</b>) keep working throughout.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>After you pay, tell Stephen</h2>
+    <p>Send a short message: "Paid." Then the rest is handled for you: extending registration to 10 years, and pointing <b>self-improvementphilosophylife.org</b> at the new website.</p>
+  </div>
+
+  <p class="small">Prepared Nov 7, 2026.</p>
+</div>
+</body>
+</html>
