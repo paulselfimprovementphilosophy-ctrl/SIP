@@ -6,5 +6,5 @@
 window.SIP_CONTACT = {
   email: 'paul.selfimprovementphilosophy@gmail.com',          // e.g. 'paul@yourdomain.com'
   phone: '(312) 612-0352',          // e.g. '(555) 555-5555'
-  address: ['Self-Improvement Philosophy LLC', '765 E. 154th St.', 'South Holland, IL 60473']
+  address: ['Self-Improvement Philosophy S.I.P. LLC', '980 N. Michigan Ave., Ste. 1090', 'Chicago, IL 60611']
 };
